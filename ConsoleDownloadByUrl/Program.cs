@@ -27,7 +27,7 @@ namespace ConsoleDownloadByUrl
                     wc.DownloadProgressChanged += Wc_DownloadProgressChanged;
 
                     //wc.DownloadFile(new System.Uri("https://dl.ganttproject.biz/ganttproject-3.2.3240/ganttproject-3.2.3240.exe"), @"D:\011714\study\ganttproject-3.2.3240.exe");
-                    await wc.DownloadFileTaskAsync(new System.Uri("https://dl.ganttproject.biz/ganttproject-3.2.3240/ganttproject-3.2.3240.exe"), @"D:\011714\study\ganttproject-3.2.3240.exe");
+                    await wc.DownloadFileTaskAsync(new System.Uri("https://dl.ganttproject.biz/ganttproject-3.2.3240/ganttproject-3.2.3240.exe"), @"D:\011714\study\ganttproject-3.2.3240.txt");
                    
                 }
             }
